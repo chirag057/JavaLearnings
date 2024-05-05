@@ -3,7 +3,8 @@ package OOPS;
 //Polymorphism ---> Many Forms         same name , different factors
 
 // 1) function Overloading 2) Function Overriding
-//1) Compile Time 2) Run Time(Inheritance)
+//1) Compile Time 2) Run Time(Inheritance) gets error while running[Big Problem]
+
 
  class  Student1
 {
