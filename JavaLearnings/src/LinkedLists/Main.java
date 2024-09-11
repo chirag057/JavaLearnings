@@ -12,11 +12,15 @@ myLinkedList.Append(8);
 
   myLinkedList.printList();
 
-        System.out.println("The removed value is "+ myLinkedList.removeLast().value);
-        System.out.println("The removed value is "+ myLinkedList.removeLast().value);
-        System.out.println("The removed value is "+ myLinkedList.removeLast().value);
-        System.out.println("The removed value is "+ myLinkedList.removeLast().value);
-        System.out.println(myLinkedList.removeLast());
+//        System.out.println("The removed value is "+ myLinkedList.removeLast().value);
+//        System.out.println("The removed value is "+ myLinkedList.removeLast().value);
+//        System.out.println("The removed value is "+ myLinkedList.removeLast().value);
+//        System.out.println("The removed value is "+ myLinkedList.removeLast().value);
+//        System.out.println(myLinkedList.removeLast());
+
+        System.out.println("The removed first value is "+ myLinkedList.removeFirst().value);
+        System.out.println(myLinkedList.get(0).value);
+        System.out.println(myLinkedList.set(0,5));
 
 
 
