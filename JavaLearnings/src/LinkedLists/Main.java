@@ -21,6 +21,8 @@ myLinkedList.Append(8);
         System.out.println("The removed first value is "+ myLinkedList.removeFirst().value);
         System.out.println(myLinkedList.get(0).value);
         System.out.println(myLinkedList.set(0,5));
+        System.out.println(myLinkedList.insert(2,9));
+        System.out.println(myLinkedList.remove(2).value);
 
 
 
